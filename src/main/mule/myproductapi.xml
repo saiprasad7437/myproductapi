@@ -139,7 +139,7 @@ output application/json
 {
   productID: "548691",
   productNAme: "Galaxy g4",
-  Provider: "Udemy",
+  Provider: "Udemy gone",
   Description: "Complete Mule Cource beginners to the istitute"
 }]]></ee:set-payload>
             </ee:message>
