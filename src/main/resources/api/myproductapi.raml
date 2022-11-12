@@ -1,0 +1,18 @@
+#%RAML 1.0
+title: myProductAPI
+baseUri: http://localhost:8081/product
+/products:
+  get:
+    description: To get products
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "productID": "548691",
+                "productNAme": "Galaxy g4",
+                "Provider": "Udemy",
+                "Description": "Complete Mule Cource"
+              }
+
